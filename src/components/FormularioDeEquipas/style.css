@@ -1,0 +1,45 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    width: 250px;
+   
+}
+
+.li{
+    ::before{
+        content: "Nome dos Membros";
+        color: grey;
+    }
+}
+
+.memberArea{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: justify;
+    width: 80%; 
+    background-color: rgb(224, 224, 224);
+}
+
+.memberArea p{
+    font-weight: 500;
+    font-size: large;
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+}
+
+button{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input{
+    border-radius: 10px;
+}
+
