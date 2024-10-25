@@ -2,26 +2,26 @@
 
 # Descrição
 
-O Gerenciador de Tarefas é um aplicativo baseado em React, que permite aos usuários criar e gerenciar equipes e as tarefas respectivas. O intuito é permitir uma melhor organização dos projetos permitindo que usuários criem equipes e atribuam tarefa a estas, especificando prazos para as tarefas. 
+O Gerenciador de Tarefas é um aplicativo baseado em React, que permite aos usuários criar e gerenciar equipes e as tarefas respectivas. O objetivo é permitir uma melhor organização dos projetos permitindo que usuários criem equipes e atribuam tarefa a estas, especificando prazos para as tarefas. 
 
 # Funcionalidades 
 
 - Criação de Equipes: O usuário pode adicionar novas equipes e adicionar membros às mesmas.
 - Atribuição de Tarefas: O usuário pode criar tarefas e atribuí-las a membro de determinada equipe  definindo uma data para entrega.
 - Gerenciamento de Status das Tarefas: As tarefas podem estar no status "Pendente", "Em Progresso" e "Concluída" (as tarefas podem ter seu status alterado).
-- Persistência de Dados: As tarefas e as equipes ficam salvas em armazenamento local do navegador, garantindo que os dados sejam mantidos até mesmo após o recarreamento da página.
+- Persistência de Dados: As tarefas e as equipes ficam salvas em armazenamento local do navegador.
 
 # Como funciona? 
 
 # 1. Adicionar equipes
 
-- Formulário de Equipes: O usuário informa o nome da equipe e os nomes dos membros que desejaria adicionar, sendo que ao menos um membro deve ser adicionado antes de salvar a equipe.
-- Validações: O aplicativo confere se nome da equipe e os membros foram informados, liberando a adição somente após que as informações tenham sido previamente inseridas.
+- Formulário de Equipes: O usuário digita o nome da equipe e os nomes dos membros que desejaria adicionar, sendo que ao menos um membro deve ser adicionado antes de salvar a equipe.
+- Validações: O aplicativo confere se nome da equipe e os membros foram digitados, liberando a adição somente após que as informações tenham sido previamente inseridas.
 
 # 2. Criar tarefas 
 
-- Formulário de Tarefas: O usuário informa uma nova tarefa, seleciona a equipe e o membro que será responsável, e define uma data para entrega.
-- Validações: O aplicativo assegura que toda informação necessária (equipe, membro responsável e data de entrega) foi informada antes de adicionar a tarefa. 
+- Formulário de Tarefas: O usuário digita uma nova tarefa, seleciona a equipe e o membro que será responsável, e define uma data para entrega.
+- Validações: O aplicativo assegura que toda informação necessária (equipe, membro responsável e data de entrega) foi digita antes de adicionar a tarefa. 
 
 # 3. Visualizar e Gerenciar Tarefas 
 
